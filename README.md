@@ -59,3 +59,4 @@
 2. Create KafkaJsonProducer for the json payload
 3. Create REST end point as JsonMessageController to publish message [can use POSTMAN tool to post JSON message]
 4. Create separate topics for json messages & use that for producer
+5. Create KafkaJsonConsumer using the @KafkaListener & topic - my-first-topic-json
