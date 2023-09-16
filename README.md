@@ -51,4 +51,10 @@
 
 1. Need to update/add following properties in application.properties
 
-   >
+   >spring.kafka.consumer.value-deserializer=org.springframework.kafka.support.serializer.JsonDeserializer
+   spring.kafka.consumer.properties.spring.json.trusted.packages=*
+   spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+   > 
+
+2. Create KafkaJsonProducer for the json payload
+3. 
